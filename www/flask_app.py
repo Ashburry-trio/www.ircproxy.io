@@ -1,10 +1,8 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-
 from __future__ import annotations
-
 from flask import Flask
-from flask import render_template, redirect, request, session
+# from flask import render_template, redirect, request, session
 from flask_session.__init__ import Session
 
 

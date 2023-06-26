@@ -1,5 +1,8 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+from __future__ import annotations
 from flask import Blueprint, render_template, request, flash, make_response
-from flask import Flask, redirect, session
+# from flask import Flask, redirect, session
 
 views = Blueprint('views', __name__, template_folder='templates', static_folder='static')
 
