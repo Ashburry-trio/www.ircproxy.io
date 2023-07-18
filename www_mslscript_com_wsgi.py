@@ -19,7 +19,7 @@ from os import path
 import sys
 
 # add your project directory to the sys.path
-project_home: str = path.dirname(path.expanduser("~/www/"))
+project_home: str = path.expanduser("~/www/")
 if project_home not in sys.path:
     sys.path = [project_home] + sys.path
 
