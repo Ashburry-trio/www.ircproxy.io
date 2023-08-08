@@ -4,6 +4,8 @@ __pycache__/
 *$py.class
 *secret*
 secret.txt
+desktop.ini
+*/__pycache__/*
 # C extensions
 *.so
 
